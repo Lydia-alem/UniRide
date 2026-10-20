@@ -1,0 +1,47 @@
+name: uniride
+description: "UniRide - Your campus. Our ride. University bus seat reservation app."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.6.0
+
+  # State management
+  provider: ^6.1.2
+
+  # Storage
+  shared_preferences: ^2.3.3
+
+  # QR Code
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^5.2.3
+
+  # UI
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.0
+  shimmer: ^3.0.0
+  cached_network_image: ^3.4.1
+
+  # Utils
+  uuid: ^4.5.1
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
